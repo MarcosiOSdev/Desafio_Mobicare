@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1865D1D41ED74A45006D33E6 /* CompraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865D1D31ED74A45006D33E6 /* CompraService.swift */; };
+		1865D1D61ED74B1B006D33E6 /* MobileUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865D1D51ED74B1B006D33E6 /* MobileUsuario.swift */; };
+		18AF41D01ED45037006115D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41CF1ED45037006115D3 /* AppDelegate.swift */; };
+		18AF41D21ED45037006115D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41D11ED45037006115D3 /* ViewController.swift */; };
+		18AF41D51ED45037006115D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41D31ED45037006115D3 /* Main.storyboard */; };
+		18AF41D71ED45037006115D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41D61ED45037006115D3 /* Assets.xcassets */; };
+		18AF41DA1ED45037006115D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41D81ED45037006115D3 /* LaunchScreen.storyboard */; };
+		18AF41ED1ED45535006115D3 /* buenos aires.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41E21ED45535006115D3 /* buenos aires.jpg */; };
+		18AF41EE1ED45535006115D3 /* chile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41E31ED45535006115D3 /* chile.jpg */; };
+		18AF41EF1ED45535006115D3 /* Fortaleza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41E41ED45535006115D3 /* Fortaleza.jpg */; };
+		18AF41F01ED45535006115D3 /* frankfurt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41E51ED45535006115D3 /* frankfurt.jpg */; };
+		18AF41F11ED45535006115D3 /* london.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41E61ED45535006115D3 /* london.jpg */; };
+		18AF41F21ED45535006115D3 /* madrid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41E71ED45535006115D3 /* madrid.jpg */; };
+		18AF41F31ED45535006115D3 /* paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41E81ED45535006115D3 /* paris.jpg */; };
+		18AF41F41ED45535006115D3 /* recife.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41E91ED45535006115D3 /* recife.jpeg */; };
+		18AF41F51ED45535006115D3 /* roma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41EA1ED45535006115D3 /* roma.jpg */; };
+		18AF41F61ED45535006115D3 /* santa_catarina.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41EB1ED45535006115D3 /* santa_catarina.jpeg */; };
+		18AF41F71ED45535006115D3 /* veneza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AF41EC1ED45535006115D3 /* veneza.jpg */; };
+		18AF41FE1ED458AC006115D3 /* Pacote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41FD1ED458AC006115D3 /* Pacote.swift */; };
+		18AF42001ED45CC6006115D3 /* PacoteDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF41FF1ED45CC6006115D3 /* PacoteDAO.swift */; };
+		18AF42021ED45E1D006115D3 /* ViagemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF42011ED45E1D006115D3 /* ViagemTableViewCell.swift */; };
+		18BCAEB11ED462FB00BDFE76 /* UIImage+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCAEB01ED462FB00BDFE76 /* UIImage+Styles.swift */; };
+		18BCAEB31ED464C600BDFE76 /* UIImageView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCAEB21ED464C600BDFE76 /* UIImageView+Styles.swift */; };
+		18BCAEB61ED46A7400BDFE76 /* DetalhesPacoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCAEB41ED46A7400BDFE76 /* DetalhesPacoteViewController.swift */; };
+		18BCAEB71ED46A7400BDFE76 /* DetalhesPacoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BCAEB51ED46A7400BDFE76 /* DetalhesPacoteViewController.xib */; };
+		18BCAEBB1ED4863D00BDFE76 /* carrinho.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCAEBA1ED4863D00BDFE76 /* carrinho.png */; };
+		18BCAEBD1ED5C6E600BDFE76 /* UIColor+cores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCAEBC1ED5C6E600BDFE76 /* UIColor+cores.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1865D1D31ED74A45006D33E6 /* CompraService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompraService.swift; sourceTree = "<group>"; };
+		1865D1D51ED74B1B006D33E6 /* MobileUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileUsuario.swift; sourceTree = "<group>"; };
+		18AF41CC1ED45037006115D3 /* Desafio-Mobicare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio-Mobicare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AF41CF1ED45037006115D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18AF41D11ED45037006115D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18AF41D41ED45037006115D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18AF41D61ED45037006115D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18AF41D91ED45037006115D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18AF41DB1ED45037006115D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AF41E21ED45535006115D3 /* buenos aires.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "buenos aires.jpg"; sourceTree = "<group>"; };
+		18AF41E31ED45535006115D3 /* chile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chile.jpg; sourceTree = "<group>"; };
+		18AF41E41ED45535006115D3 /* Fortaleza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fortaleza.jpg; sourceTree = "<group>"; };
+		18AF41E51ED45535006115D3 /* frankfurt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frankfurt.jpg; sourceTree = "<group>"; };
+		18AF41E61ED45535006115D3 /* london.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = london.jpg; sourceTree = "<group>"; };
+		18AF41E71ED45535006115D3 /* madrid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = madrid.jpg; sourceTree = "<group>"; };
+		18AF41E81ED45535006115D3 /* paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paris.jpg; sourceTree = "<group>"; };
+		18AF41E91ED45535006115D3 /* recife.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = recife.jpeg; sourceTree = "<group>"; };
+		18AF41EA1ED45535006115D3 /* roma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roma.jpg; sourceTree = "<group>"; };
+		18AF41EB1ED45535006115D3 /* santa_catarina.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santa_catarina.jpeg; sourceTree = "<group>"; };
+		18AF41EC1ED45535006115D3 /* veneza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = veneza.jpg; sourceTree = "<group>"; };
+		18AF41FD1ED458AC006115D3 /* Pacote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pacote.swift; sourceTree = "<group>"; };
+		18AF41FF1ED45CC6006115D3 /* PacoteDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacoteDAO.swift; sourceTree = "<group>"; };
+		18AF42011ED45E1D006115D3 /* ViagemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViagemTableViewCell.swift; sourceTree = "<group>"; };
+		18BCAEB01ED462FB00BDFE76 /* UIImage+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Styles.swift"; sourceTree = "<group>"; };
+		18BCAEB21ED464C600BDFE76 /* UIImageView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Styles.swift"; sourceTree = "<group>"; };
+		18BCAEB41ED46A7400BDFE76 /* DetalhesPacoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesPacoteViewController.swift; sourceTree = "<group>"; };
+		18BCAEB51ED46A7400BDFE76 /* DetalhesPacoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalhesPacoteViewController.xib; sourceTree = "<group>"; };
+		18BCAEBA1ED4863D00BDFE76 /* carrinho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carrinho.png; sourceTree = "<group>"; };
+		18BCAEBC1ED5C6E600BDFE76 /* UIColor+cores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+cores.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AF41C91ED45036006115D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1865D1D21ED74A35006D33E6 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				1865D1D31ED74A45006D33E6 /* CompraService.swift */,
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
+		18AF41C31ED45036006115D3 = {
+			isa = PBXGroup;
+			children = (
+				18AF41CE1ED45037006115D3 /* Desafio-Mobicare */,
+				18AF41CD1ED45037006115D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18AF41CD1ED45037006115D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AF41CC1ED45037006115D3 /* Desafio-Mobicare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AF41CE1ED45037006115D3 /* Desafio-Mobicare */ = {
+			isa = PBXGroup;
+			children = (
+				1865D1D21ED74A35006D33E6 /* services */,
+				18BCAEAF1ED4628C00BDFE76 /* extensions */,
+				18AF42031ED45E26006115D3 /* view */,
+				18AF41FC1ED458A2006115D3 /* model */,
+				18AF41F91ED45686006115D3 /* base */,
+				18AF41F81ED45593006115D3 /* controllers */,
+				18AF41E11ED452ED006115D3 /* images */,
+				18AF41CF1ED45037006115D3 /* AppDelegate.swift */,
+				18AF41D31ED45037006115D3 /* Main.storyboard */,
+				18AF41D61ED45037006115D3 /* Assets.xcassets */,
+				18AF41D81ED45037006115D3 /* LaunchScreen.storyboard */,
+				18AF41DB1ED45037006115D3 /* Info.plist */,
+			);
+			path = "Desafio-Mobicare";
+			sourceTree = "<group>";
+		};
+		18AF41E11ED452ED006115D3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				18BCAEBA1ED4863D00BDFE76 /* carrinho.png */,
+				18AF41E21ED45535006115D3 /* buenos aires.jpg */,
+				18AF41E31ED45535006115D3 /* chile.jpg */,
+				18AF41E41ED45535006115D3 /* Fortaleza.jpg */,
+				18AF41E51ED45535006115D3 /* frankfurt.jpg */,
+				18AF41E61ED45535006115D3 /* london.jpg */,
+				18AF41E71ED45535006115D3 /* madrid.jpg */,
+				18AF41E81ED45535006115D3 /* paris.jpg */,
+				18AF41E91ED45535006115D3 /* recife.jpeg */,
+				18AF41EA1ED45535006115D3 /* roma.jpg */,
+				18AF41EB1ED45535006115D3 /* santa_catarina.jpeg */,
+				18AF41EC1ED45535006115D3 /* veneza.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		18AF41F81ED45593006115D3 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18AF41D11ED45037006115D3 /* ViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		18AF41F91ED45686006115D3 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				18AF41FF1ED45CC6006115D3 /* PacoteDAO.swift */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		18AF41FC1ED458A2006115D3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				18AF41FD1ED458AC006115D3 /* Pacote.swift */,
+				1865D1D51ED74B1B006D33E6 /* MobileUsuario.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		18AF42031ED45E26006115D3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18AF42011ED45E1D006115D3 /* ViagemTableViewCell.swift */,
+				18BCAEB41ED46A7400BDFE76 /* DetalhesPacoteViewController.swift */,
+				18BCAEB51ED46A7400BDFE76 /* DetalhesPacoteViewController.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		18BCAEAF1ED4628C00BDFE76 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18BCAEB01ED462FB00BDFE76 /* UIImage+Styles.swift */,
+				18BCAEB21ED464C600BDFE76 /* UIImageView+Styles.swift */,
+				18BCAEBC1ED5C6E600BDFE76 /* UIColor+cores.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AF41CB1ED45036006115D3 /* Desafio-Mobicare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AF41DE1ED45037006115D3 /* Build configuration list for PBXNativeTarget "Desafio-Mobicare" */;
+			buildPhases = (
+				18AF41C81ED45036006115D3 /* Sources */,
+				18AF41C91ED45036006115D3 /* Frameworks */,
+				18AF41CA1ED45036006115D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desafio-Mobicare";
+			productName = "Desafio-Mobicare";
+			productReference = 18AF41CC1ED45037006115D3 /* Desafio-Mobicare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AF41C41ED45036006115D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Marcos;
+				TargetAttributes = {
+					18AF41CB1ED45036006115D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V2686JM7D9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18AF41C71ED45036006115D3 /* Build configuration list for PBXProject "Desafio-Mobicare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AF41C31ED45036006115D3;
+			productRefGroup = 18AF41CD1ED45037006115D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AF41CB1ED45036006115D3 /* Desafio-Mobicare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AF41CA1ED45036006115D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AF41EF1ED45535006115D3 /* Fortaleza.jpg in Resources */,
+				18AF41DA1ED45037006115D3 /* LaunchScreen.storyboard in Resources */,
+				18AF41F61ED45535006115D3 /* santa_catarina.jpeg in Resources */,
+				18AF41D71ED45037006115D3 /* Assets.xcassets in Resources */,
+				18AF41F11ED45535006115D3 /* london.jpg in Resources */,
+				18BCAEBB1ED4863D00BDFE76 /* carrinho.png in Resources */,
+				18AF41D51ED45037006115D3 /* Main.storyboard in Resources */,
+				18AF41F01ED45535006115D3 /* frankfurt.jpg in Resources */,
+				18AF41EE1ED45535006115D3 /* chile.jpg in Resources */,
+				18AF41F71ED45535006115D3 /* veneza.jpg in Resources */,
+				18AF41F21ED45535006115D3 /* madrid.jpg in Resources */,
+				18AF41ED1ED45535006115D3 /* buenos aires.jpg in Resources */,
+				18AF41F41ED45535006115D3 /* recife.jpeg in Resources */,
+				18BCAEB71ED46A7400BDFE76 /* DetalhesPacoteViewController.xib in Resources */,
+				18AF41F51ED45535006115D3 /* roma.jpg in Resources */,
+				18AF41F31ED45535006115D3 /* paris.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AF41C81ED45036006115D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BCAEB31ED464C600BDFE76 /* UIImageView+Styles.swift in Sources */,
+				18AF41D21ED45037006115D3 /* ViewController.swift in Sources */,
+				18BCAEBD1ED5C6E600BDFE76 /* UIColor+cores.swift in Sources */,
+				1865D1D41ED74A45006D33E6 /* CompraService.swift in Sources */,
+				18BCAEB61ED46A7400BDFE76 /* DetalhesPacoteViewController.swift in Sources */,
+				18AF42021ED45E1D006115D3 /* ViagemTableViewCell.swift in Sources */,
+				18AF42001ED45CC6006115D3 /* PacoteDAO.swift in Sources */,
+				18AF41D01ED45037006115D3 /* AppDelegate.swift in Sources */,
+				18AF41FE1ED458AC006115D3 /* Pacote.swift in Sources */,
+				1865D1D61ED74B1B006D33E6 /* MobileUsuario.swift in Sources */,
+				18BCAEB11ED462FB00BDFE76 /* UIImage+Styles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18AF41D31ED45037006115D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AF41D41ED45037006115D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18AF41D81ED45037006115D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AF41D91ED45037006115D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AF41DC1ED45037006115D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18AF41DD1ED45037006115D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AF41DF1ED45037006115D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2686JM7D9;
+				INFOPLIST_FILE = "Desafio-Mobicare/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.mfelipesp.Desafio-Mobicare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18AF41E01ED45037006115D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2686JM7D9;
+				INFOPLIST_FILE = "Desafio-Mobicare/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.mfelipesp.Desafio-Mobicare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AF41C71ED45036006115D3 /* Build configuration list for PBXProject "Desafio-Mobicare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AF41DC1ED45037006115D3 /* Debug */,
+				18AF41DD1ED45037006115D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AF41DE1ED45037006115D3 /* Build configuration list for PBXNativeTarget "Desafio-Mobicare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AF41DF1ED45037006115D3 /* Debug */,
+				18AF41E01ED45037006115D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18AF41C41ED45036006115D3 /* Project object */;
+}
