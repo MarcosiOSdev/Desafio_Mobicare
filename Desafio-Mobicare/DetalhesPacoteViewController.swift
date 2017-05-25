@@ -61,17 +61,9 @@ class DetalhesPacoteViewController: UIViewController {
     }
     
     func realizarCompra() {
-        let versao = UIDevice.current.systemVersion
-        let bateria = UIDevice.current.batteryLevel
-        let nomeDoIphone = UIDevice.current.name
-        let modelo = UIDevice.current.model
-        
-        print("A compra foi feita do \(pacote.nomePacote)")
-        print("Versao do iphone : \(versao), modelo: \(modelo), bateria \(bateria), nome do iphone: \(nomeDoIphone)" )
-        
-        
+        print("A compra foi feita do \(pacote.nomePacote)")        
         let compraService = CompraService(pacote: pacote)
-        compraService.sendPacote(send: false)
+        compraService.sendPacote(send: false) // False nao envia, pois o servico nao existe ... mocked
     }
     
 
